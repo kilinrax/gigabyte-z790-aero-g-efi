@@ -44,6 +44,7 @@
 - AppleALC.kext
 - CPUFriend.kext
 - CPUFriendDataProvider.kext
+- CpuTopologyRebuild.kext
 - Lilu.kext
 - RestrictEvents.kext
 - SMCProcessor.kext
@@ -67,7 +68,7 @@ Note NVMeFix.kext is (currently) disabled.  See [Choosing a Compatible NVMe SSD 
 - SSDT-SBUS-MCHC.aml
 - SSDT-USBW.aml
 
-Note that GPU spoofing is necessary to avoid 'Failed Power Play Resume' errors from AmdRadeonController.cpp on wake.  Yes, this is strange: a W6600 Pro is closer to the compute module found in a real Mac Pro.
+Note that GPU spoofing is necessary to avoid 'Failed Power Play Resume' errors from AmdRadeonController.cpp on wake.  Yes, this is strange: a W6600 Pro is closer than an AIB partner 6600 to the W6600X found in a real Mac Pro.
 
 ## Thanks/Credits
 - [Opencore Team](https://dortania.github.io/getting-started/)
