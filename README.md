@@ -26,15 +26,18 @@
 - Temperature/power/fan monitoring for CPU, system fan and W6600 (temperature only)
 - DRM content (Apple TV+)
 - Minor macOS releases can be installed directly, without using a USB stick
-- Sleep/Wake
+- Sleep/wake barring minor issues below
 - Bluetooth, AirPods work without stuttering or cutouts
 
 ## What doesn't work
 - Continuity camera - macOS bug, doesn't work unless the device also has an inbuilt camera (iMac, MacBook)
 - Sidecar - hardware limitation, no compatible iGPU or T2 chip
+
+## Minor issues
 - Bluetooth sometimes needs rebooting on wake
 - USB sticks sometimes disconnect on sleep/wake
 - Fan rpm sensors can stop reporting on sleep/wake
+- Display sometimes takes a while to reappear after Apple logo
 
 ## Kexts used:
 - AppleALC.kext
