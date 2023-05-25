@@ -74,7 +74,7 @@ Note that GPU spoofing is necessary to avoid 'Failed Power Play Resume' errors f
 
 ### Verbose mode
 
-If boot-args includes '-v', the 'display sometimes takes a while to appear' problem turns into a 'the display never activates on some reboots' problem.
+If `boot-args` includes `-v`, the '*display sometimes takes a while to appear*' problem turns into a '*the display never activates on some reboots*' problem.
 
 ### Errors in DeviceProperties
 
@@ -90,11 +90,11 @@ Causes root partition to be mounted read-only, startup hangs.
 
 ### SetupVirtualMap
 
-Mus be 'True' to boot, counter-intuitively.
+Must be `True` to boot, counter-intuitively.
 
 ### EFI partition damaged (happened twice, cause unknown)
 
-Locate it with 'diskutil list', fix with 'sudo fsck_msdos'.
+Locate it with `diskutil list`, fix with `sudo fsck_msdos`.
 
 ## Thanks/Credits
 - [Opencore Team](https://dortania.github.io/getting-started/)
