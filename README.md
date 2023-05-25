@@ -1,4 +1,4 @@
-# Gigabyte Z790 Aero G + i9 13900K + W6600 Pro + Fenvi BCM94360NG
+# Gigabyte Z790 Aero G + i9 13900K + W6600 Pro + Fenvi T919
 
 ![about-this-mac](https://raw.githubusercontent.com/kilinrax/gigabyte-z790-aero-g-efi/main/about-this-mac.png)
 
@@ -15,7 +15,7 @@
 - Stock Intel i225-V Wifi/BT unused, replaced with Fenvi T919 / BCM94360CD in slot 3 (works OOB)
 - WD SN750 NVMe
 - Lian Li LConnect 3 fan/RGB controller
-- Fractal Define Define 7 Case
+- Fractal Define Define 7 case
 
 ## What works
 - macOS Ventura, Monterey, probably Catalina and Big Sur
@@ -30,7 +30,7 @@
 - Bluetooth, AirPods work without stuttering or cutouts
 
 ## What doesn't work
-- Continuity camera, macOS bug - doesn't work unless the device also has an inbuilt camera (iMac, MacBook)
+- Continuity camera - macOS bug, doesn't work unless the device also has an inbuilt camera (iMac, MacBook)
 - Sidecar - hardware limitation, no compatible iGPU or T2 chip
 - Bluetooth sometimes needs rebooting on wake
 - USB drives sometimes disconnect on sleep/wake
