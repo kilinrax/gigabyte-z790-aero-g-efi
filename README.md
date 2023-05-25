@@ -70,6 +70,32 @@ Note NVMeFix.kext is (currently) disabled.  See [Choosing a Compatible NVMe SSD 
 
 Note that GPU spoofing is necessary to avoid 'Failed Power Play Resume' errors from AmdRadeonController.cpp on wake.  Yes, this is strange: a W6600 Pro is closer than an AIB partner 6600 to the W6600X found in a real Mac Pro.
 
+## Issues solved
+
+### Verbose mode
+
+If boot-args includes '-v', the 'display sometimes takes a while to appear' problem turns into a 'the display never activates on some reboots' problem.
+
+### Errors in DeviceProperties
+
+PCI paths for any device being incorrect will cause boot loops.
+
+### Nvidia dGPU not disabled
+
+Causes constant problems with Bluetooth.
+
+### NVMeFix.kext
+
+Causes root partition to be mounted read-only, startup hangs.
+
+### SetupVirtualMap
+
+Mus be 'True' to boot, counter-intuitively.
+
+### EFI partition damaged (happened twice, cause unknown)
+
+Locate it with 'diskutil list', fix with 'sudo fsck_msdos'.
+
 ## Thanks/Credits
 - [Opencore Team](https://dortania.github.io/getting-started/)
 - [Using Alder Lake or Raptor Lake](https://chriswayg.gitbook.io/opencore-visual-beginners-guide/advanced-topics/using-alder-lake)
