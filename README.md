@@ -32,6 +32,8 @@
 ## What doesn't work
 - Continuity camera, macOS bug - doesn't work unless the device also has an inbuilt camera (iMac, MacBook)
 - Sidecar - hardware limitation, no compatible iGPU or T2 chip
+- Bluetooth sometimes needs rebooting on wake
+- USB drives sometimes disconnect on sleep/wake
 
 ## Kexts used:
 - AppleALC.kext
