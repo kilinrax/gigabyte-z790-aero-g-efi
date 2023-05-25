@@ -10,9 +10,9 @@
 - Intel i9 13900K @ 5.2GHz P-cores / 4.2GHz E-cores / 1.2V (all cores activated)
 - Gigabyte Z790 Aero G
 - EVGA FTW3 3090 in slot 1 (disabled under macOS via DeviceProperties)
-- Radeon W6600 Pro (spoofed as 6600 via SSDT)
+- Radeon W6600 Pro in slot 2 (spoofed as 6600 via SSDT)
 - 2x 32Gb DDR5 5600MT/s Kingston Fury Beast RAM running at CL36 enhanced Hynix XMP profile
-- Stock Intel i225-V Wifi/BT unused, replaced with Fenvi T919 / BCM94360CD (works OOB)
+- Stock Intel i225-V Wifi/BT unused, replaced with Fenvi T919 / BCM94360CD in slot 3 (works OOB)
 - WD SN750 NVMe
 - Lian Li LConnect 3 fan/RGB controller
 - Fractal Define Define 7 Case
