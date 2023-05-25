@@ -8,7 +8,7 @@
 
 ## Complete hardware specs
 - Intel i9 13900K @ 5.2GHz P-cores / 4.2GHz E-cores / 1.2V (all cores activated)
-- Gigabyte Z790 Aero G
+- Gigabyte Z790 Aero G @ BIOS F2
 - EVGA FTW3 3090 in slot 1 (disabled under macOS via DeviceProperties)
 - Radeon W6600 Pro in slot 2 (spoofed as 6600 via SSDT)
 - 2x 32Gb DDR5 5600MT/s Kingston Fury Beast RAM running at CL36 enhanced Hynix XMP profile
