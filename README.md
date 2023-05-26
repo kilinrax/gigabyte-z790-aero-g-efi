@@ -100,8 +100,9 @@ Locate it with `diskutil list`, fix with `sudo fsck_msdos`.
 
 ![R23 multi-core: 37104, single-core: 1879](https://raw.githubusercontent.com/kilinrax/gigabyte-z790-aero-g-efi/main/cinebench_r23.png)
 
-Multi-core: +32% vs Xeon W-3275M (top spec Mac Pro), +70% vs M1 Ultra
-Single-core: +10% vs M2
+**Multi-core**: +32% vs Xeon W-3275M (top spec Mac Pro), +70% vs M1 Ultra
+<br>
+**Single-core**: +10% vs M2
 
 Scores are ~39k and ~2.2k in Windows, so CpuTopologyRebuild.kext isn't perfect.
 
