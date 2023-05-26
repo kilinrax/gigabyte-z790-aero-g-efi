@@ -15,7 +15,7 @@
 - Stock Intel i225-V WiFi/BT unused, replaced with Fenvi T919 / BCM94360CD in slot 3 (works OOB)
 - WD SN750 NVMe
 - Lian Li LConnect 3 fan/RGB controller
-- Fractal Define Define 7 case
+- Fractal Design Define 7 case
 
 ## What works
 - macOS Ventura, Monterey, probably Catalina and Big Sur
