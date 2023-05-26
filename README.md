@@ -32,7 +32,7 @@
 ## What doesn't work
 - Continuity camera - macOS bug, doesn't work unless the device also has an inbuilt camera (iMac, MacBook)
 - Sidecar - hardware limitation, no compatible iGPU or T2 chip
-- Broadcom Bluetooth driver is broken under Windows 11 (must use Intel, extra antenna, annoying)
+- Broadcom Bluetooth driver is broken under Windows 11 (must use Intel, needs an extra antenna, annoying)
 
 ## Minor issues
 - Bluetooth sometimes needs rebooting on wake
@@ -104,7 +104,7 @@ Locate it with `diskutil list`, fix with `sudo fsck_msdos`.
 <br>
 **Single-core**: +10% vs M2
 
-Scores are ~39k and ~2.2k in Windows, so CpuTopologyRebuild.kext isn't perfect.
+Scores are ~39k and ~2.2k in Windows, so CpuTopologyRebuild.kext isn't perfect - it seems to select an E-Core for every Cinebench single-core run.
 
 ## Thanks/Credits
 - [Opencore Team](https://dortania.github.io/getting-started/)
