@@ -30,7 +30,7 @@
 - Bluetooth, AirPods work without stuttering or cutouts
 
 ## What doesn't work
-- Continuity camera - macOS bug, doesn't work unless the device also has an inbuilt camera (iMac, MacBook)
+- Wireless Continuity Camera (works via cable) - macOS bug, doesn't work unless the device also has an inbuilt camera (iMac, MacBook)
 - Sidecar - hardware limitation, no compatible iGPU or T2 chip
 - Broadcom Bluetooth driver is broken under Windows 11 (must use Intel, needs an extra antenna, annoying)
 
