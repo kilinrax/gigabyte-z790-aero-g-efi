@@ -32,7 +32,7 @@
 ## What doesn't work
 - Wireless Continuity Camera (works via cable) - macOS bug, doesn't work unless the device also has an inbuilt camera (iMac, MacBook)
 - Sidecar - hardware limitation, no compatible iGPU or T2 chip
-- Broadcom Bluetooth driver is broken under Windows 11 (must use Intel, needs an extra antenna, annoying)
+- ~~Broadcom Bluetooth driver is broken under Windows 11 (must use Intel, needs an extra antenna, annoying)~~ - use [this driver](https://www.catalog.update.microsoft.com/search.aspx?q=broadcom%20corporation%20driver%20update%20for%20broadcom%20bluetooth%204.1%20usb)
 
 ## Minor issues
 - Bluetooth sometimes needs rebooting on wake
