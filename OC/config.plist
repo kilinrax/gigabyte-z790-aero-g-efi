@@ -87,23 +87,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X0RTTQ==</data>
+				<data>
+				X0RTTQ==
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WERTTQ==</data>
+				<data>
+				WERTTQ==
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -117,23 +125,31 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>R1BSVwI=</data>
+				<data>
+				R1BSVwI=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WFBSVwI=</data>
+				<data>
+				WFBSVwI=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -164,6 +180,8 @@
 			<false/>
 			<key>AvoidRuntimeDefrag</key>
 			<true/>
+			<key>ClearTaskSwitchBit</key>
+			<false/>
 			<key>DevirtualiseMmio</key>
 			<true/>
 			<key>DisableSingleUser</key>
@@ -182,8 +200,6 @@
 			<false/>
 			<key>ForceExitBootServices</key>
 			<false/>
-			<key>InstanceIdentifier</key>
-			<string></string>
 			<key>ProtectMemoryRegions</key>
 			<false/>
 			<key>ProtectSecureBoot</key>
@@ -217,8 +233,6 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
 			<dict>
-				<key>CFG,CFG_USE_AGDC</key>
-				<data>AA==</data>
 				<key>@0,name</key>
 				<string>ATY,Henbury</string>
 				<key>@1,name</key>
@@ -227,15 +241,23 @@
 				<string>ATY,Henbury</string>
 				<key>@3,name</key>
 				<string>ATY,Henbury</string>
+				<key>CFG,CFG_USE_AGDC</key>
+				<data>
+				AA==
+				</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
 				<key>#AAPL,slot-name</key>
 				<string>Internal@0,31,3</string>
 				<key>#device-id</key>
-				<data>0HoAAA==</data>
+				<data>
+				0HoAAA==
+				</data>
 				<key>layout-id</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -646,9 +668,13 @@
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
-			<data>VQYKAAAAAAAAAAAAAAAAAA==</data>
+			<data>
+			VQYKAAAAAAAAAAAAAAAAAA==
+			</data>
 			<key>Cpuid1Mask</key>
-			<data>/////wAAAAAAAAAAAAAAAA==</data>
+			<data>
+			/////wAAAAAAAAAAAAAAAA==
+			</data>
 			<key>DummyPowerManagement</key>
 			<false/>
 			<key>MaxKernel</key>
@@ -672,21 +698,27 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>i4iUAQAA</data>
+				<data>
+				i4iUAQAA
+				</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
 				<string>18.0.0</string>
 				<key>Replace</key>
-				<data>uf8AAACQ</data>
+				<data>
+				uf8AAACQ
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -702,21 +734,27 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>i4iQAQAA</data>
+				<data>
+				i4iQAQAA
+				</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>MaxKernel</key>
 				<string>17.99.99</string>
 				<key>MinKernel</key>
 				<string>15.0.0</string>
 				<key>Replace</key>
-				<data>uQAAAACQ</data>
+				<data>
+				uQAAAACQ
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -732,21 +770,26 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Identifier</key>
 				<string>com.apple.driver.AppleRTC</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
 				<string>19.0.0</string>
 				<key>Replace</key>
-				<data>ww==</data>
+				<data>
+				ww==
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -826,6 +869,8 @@
 			<false/>
 			<key>HideAuxiliary</key>
 			<true/>
+			<key>InstanceIdentifier</key>
+			<string></string>
 			<key>LauncherOption</key>
 			<string>Disabled</string>
 			<key>LauncherPath</key>
@@ -887,9 +932,11 @@
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>PasswordHash</key>
-			<data></data>
+			<data>
+			</data>
 			<key>PasswordSalt</key>
-			<data></data>
+			<data>
+			</data>
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
@@ -914,7 +961,9 @@
 				<key>LineControl</key>
 				<integer>3</integer>
 				<key>PciDeviceInfo</key>
-				<data>/w==</data>
+				<data>
+				/w==
+				</data>
 				<key>RegisterAccessWidth</key>
 				<integer>8</integer>
 				<key>RegisterBase</key>
@@ -1272,7 +1321,9 @@
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<dict>
 				<key>DefaultBackgroundColor</key>
-				<data>AAAAAA==</data>
+				<data>
+				AAAAAA==
+				</data>
 			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
@@ -1281,16 +1332,21 @@
 				<key>revcpuname</key>
 				<string>3.0 GHz 24-Core Intel i9-13900K</string>
 				<key>rtc-blacklist</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>SystemAudioVolume</key>
-				<data>Rg==</data>
+				<data>
+				Rg==
+				</data>
 				<key>boot-args</key>
 				<string>keepsyms=1 debug=0x100 e1000=0 agdpmod=pikera -wegnoigpu alcid=7 -ctrsmt amfi=0x80</string>
 				<key>csr-active-config</key>
-				<data>AwgAAA==</data>
+				<data>
+				AwgAAA==
+				</data>
 				<key>prev-lang:kbd</key>
 				<string>en-US:0</string>
 				<key>run-efi-updater</key>
@@ -1675,6 +1731,8 @@
 				<string>RuntimeCode</string>
 			</dict>
 		</array>
+		<key>Unload</key>
+		<array/>
 	</dict>
 </dict>
 </plist>
