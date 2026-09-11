@@ -12,7 +12,7 @@
 - EVGA FTW3 3090 in slot 1 (disabled under macOS via DeviceProperties)
 - Radeon W6600 Pro in slot 2 (spoofed as 6600 via SSDT)
 - 2x 32Gb DDR5 5600MT/s Kingston Fury Beast RAM running at CL36 enhanced Hynix XMP profile
-- Stock Intel i225-V Wifi/BT unused, replaced with Fenvi T919 / BCM94360CD in slot 3 (works OOB)
+- Stock Intel i225-V WiFi/BT unused, replaced with Fenvi T919 / BCM94360CD in slot 3 (works OOB)
 - WD SN750 NVMe
 - Lian Li LConnect 3 fan/RGB controller
 - Fractal Define Define 7 case
