@@ -15,7 +15,7 @@
 - Stock Intel i225-V WiFi/BT unused, replaced with Fenvi T919 / BCM94360CD in slot 3 (works OOB)
 - WD SN750 NVMe
 - Lian Li LConnect 3 fan/RGB controller
-- Fractal Define Define 7 case
+- Fractal Design Define 7 case
 
 ## What works
 - macOS Ventura, Monterey, probably Catalina and Big Sur
@@ -30,9 +30,9 @@
 - Bluetooth, AirPods work without stuttering or cutouts
 
 ## What doesn't work
-- Continuity camera - macOS bug, doesn't work unless the device also has an inbuilt camera (iMac, MacBook)
+- Wireless Continuity Camera (works via cable) - macOS bug, doesn't work unless the device also has an inbuilt camera (iMac, MacBook)
 - Sidecar - hardware limitation, no compatible iGPU or T2 chip
-- Broadcom Bluetooth driver is broken under Windows 11 (must use Intel, extra antenna, annoying)
+- ~~Broadcom Bluetooth driver is broken under Windows 11 (must use Intel, needs an extra antenna, annoying)~~ - use [this driver](https://www.catalog.update.microsoft.com/search.aspx?q=broadcom%20corporation%20driver%20update%20for%20broadcom%20bluetooth%204.1%20usb)
 
 ## Minor issues
 - Bluetooth sometimes needs rebooting on wake
@@ -95,6 +95,16 @@ Must be `True` to boot, counter-intuitively.
 ### EFI partition damaged (happened twice, cause unknown)
 
 Locate it with `diskutil list`, fix with `sudo fsck_msdos`.
+
+## Benchmarks
+
+![R23 multi-core: 37104, single-core: 1879](https://raw.githubusercontent.com/kilinrax/gigabyte-z790-aero-g-efi/main/cinebench_r23.png)
+
+**Multi-core**: +32% vs Xeon W-3275M (top spec Mac Pro), +70% vs M1 Ultra
+<br>
+**Single-core**: +10% vs M2
+
+Scores are ~39k and ~2.2k in Windows, so CpuTopologyRebuild.kext isn't perfect - it seems to select an E-core for every Cinebench single-core run.
 
 ## Thanks/Credits
 - [Opencore Team](https://dortania.github.io/getting-started/)
