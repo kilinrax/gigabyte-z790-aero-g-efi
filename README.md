@@ -18,7 +18,7 @@
 - Fractal Design Define 7 case
 
 ## What works
-- macOS Ventura, Monterey, probably Catalina and Big Sur
+- macOS Sequoia, Sonoma, Ventura, Monterey, probably Catalina and Big Sur
 - Audio
 - DisplayPort @ 4K120
 - All USB ports
